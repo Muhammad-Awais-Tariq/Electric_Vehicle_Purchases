@@ -8,6 +8,7 @@ dependencies = [
     "fsspec>=2026.7.0",
     "joblib>=1.6.0",
     "jupyter>=1.1.1",
+    "lightgbm>=4.7.0",
     "numpy>=2.5.2",
     "pandas>=3.0.5",
     "scikit-learn>=1.9.0",
