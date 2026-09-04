@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.12.*"
 dependencies = [
+    "catboost>=1.2.10",
     "fsspec>=2026.7.0",
     "joblib>=1.6.0",
     "jupyter>=1.1.1",
