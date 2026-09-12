@@ -4,7 +4,7 @@ import joblib
 
 st.set_page_config(page_title="EV Purchase Predictor", page_icon="🔋", layout="centered")
 
-MODEL_PATH = "F:/Electric_Vehicle_Purchases/final_stacking_model.joblib"
+MODEL_PATH = "Model/final_stacking_model.joblib"
 
 WILL_BUY_GIF = "https://media.giphy.com/media/9OB40VsTjX9NmUMhmf/giphy.gif"
 WONT_BUY_GIF = "https://media.giphy.com/media/SreAp5WMZHfhK/giphy.gif"

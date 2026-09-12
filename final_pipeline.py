@@ -11,8 +11,8 @@ from catboost import CatBoostClassifier
 DATA_DIR = "F://Electric_Vehicle_Purchases//Data"
 TRAIN_PATH = f"{DATA_DIR}//train.csv"
 TEST_PATH = f"{DATA_DIR}//test.csv"
-SUBMISSION_PATH = "F://Electric_Vehicle_Purchases//final_submission.csv"
-MODEL_PATH = "F://Electric_Vehicle_Purchases//final_stacking_model.joblib"
+SUBMISSION_PATH = "F://Electric_Vehicle_Purchases//Submission//final_submission.csv"
+MODEL_PATH = "F://Electric_Vehicle_Purchases//Model//final_stacking_model.joblib"
 
 
 vehicle_df = pd.read_csv(TRAIN_PATH)
